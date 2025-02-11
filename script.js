@@ -13,9 +13,9 @@ function validateInput(value, min = 0) {
 }
 
 function formatMoney(amount) {
-    return amount.toLocaleString('en-US', {
+    return amount.toLocaleString('de-DE', {
         style: 'currency',
-        currency: 'USD'
+        currency: 'EUR'
     });
 }
 
